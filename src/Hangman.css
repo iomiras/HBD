@@ -1,0 +1,69 @@
+.hangman-wrapper {
+    background-color: #f0f4f8;
+    width: 90vw;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hangman-canvas {
+    height: 20vh;
+  }
+  
+  .hangman-wrapper h1 {
+    font-size: 2.5em;
+    color: #336699;
+  }
+  
+  .hangman-wrapper p {
+    font-size: 1.5em;
+  }
+  
+  .alphabet {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .letter {
+    font-size: 1.2em;
+    background-color: #fff;
+    border: 2px solid #336699;
+    border-radius: 5px;
+    color: #336699;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .letter.guessed {
+    background-color: #336699;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  
+  .letter:hover:not(.guessed) {
+    background-color: #cce7ff;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #336699;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #5599cc;
+  }
+  
