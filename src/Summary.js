@@ -24,7 +24,7 @@ const Summary = ({ accomplishments, qualities, happiness, gratitude }) => {
   }, []);
 
   const handleNext = () => {
-    if (currentComponent < components.length - 1) {
+    if (currentComponent < components.length) {
       setCurrentComponent(currentComponent + 1);
     }
   };
