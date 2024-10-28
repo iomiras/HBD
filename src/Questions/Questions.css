@@ -1,0 +1,65 @@
+.QuestionForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    margin: 0px;
+    border: 3px solid black;
+    background-color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+}
+
+.question-text {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.AnswerInput {
+    border-radius: 12px;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    padding: 12px 20px;
+    margin: 10px 0;
+    width: 80%;
+    font-size: 12px;
+    border: none;
+}
+
+.button {
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 5px 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 12px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.hints-button {
+    border-radius: 50%;
+    background-color: #56a3f6;
+    color: rgba(0, 0, 255, 0.5);
+    box-shadow: rgba(44, 96, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 106, 187, 0.15) 0 1px 2px,rgba(44, 125, 187, 0.15) 0 2px 4px,rgba(44, 142, 187, 0.15) 0 4px 8px,rgba(44, 185, 187, 0.15) 0 8px 16px,rgba(44, 63, 187, 0.15) 0 16px 32px;
+}
+
+.next-button {
+    background-color: #c2fbd7;
+    color: green;
+}

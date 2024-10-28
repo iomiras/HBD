@@ -1,0 +1,50 @@
+.superhero-summary {
+    text-align: center;
+    padding: 2em;
+    background-image: url("./Superhero.png");
+    background-size: cover; /* Contain the image within the element */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh;
+}
+
+.superhero-title {
+    color: #5438e2 !important;
+    font-weight: 700;
+    font-size: 30px !important;
+}
+
+.super-desc {
+    font-size: 16px;
+    color: #ffffff !important;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.playlist-link {
+    display: block;
+    margin: 1em 0;
+    color: #004bad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.superhero-next-button {
+    margin-top: 10px;
+    padding: 30px 20px;
+    width: 80%;
+    background: none;
+    border: 1px, white, solid;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 500; */
+    font-style: normal;
+}
+
+

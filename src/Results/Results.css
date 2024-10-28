@@ -1,0 +1,91 @@
+.result {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 80vh; /* Full viewport height */
+    /* text-align: center; Center text */
+    /* background-color: violet; Background color */
+    background-size: contain; /* Contain the image within the element */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 80vh; /* Full viewport height for background image */
+    width: 90vw; /* Width of background image */
+}
+
+.text {
+    margin: 10%; /* Margin around text */
+}
+
+.result-title {
+    font-size: 2rem; /* Font size adjustment for better visibility */
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.result-desc {
+    font-weight: light;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.list {
+    font-weight: 900;
+}
+
+.happiness {
+    background-image: url("../Wrapped/Happiness.png"); /* Background image */
+}
+
+.gratitude {
+    background-image: url("../Wrapped/Gratitude.png"); /* Background image */
+}
+
+.qualities {
+    background-image: url("../Wrapped/Qualities.png"); /* Background image */
+}
+
+.accomplishments {
+    background-image: url("../Wrapped/Accomplishments.png"); /* Background image */
+}
+
+.happiness-title {
+    color: #500000;
+}
+
+.qualities-title {
+    color: #80136e;
+}
+
+.gratitude-title {
+    color: #99250d;
+}
+
+.accomplishments-title {
+    color: #8e0e0e
+}
+
+.accomplishments-desc {
+    color: #8e0e0e
+}
+
+.qualities-desc {
+    color: #80136e;
+}
+
+.gratitude-desc {
+    color: #99250d;
+}
+
+.happiness-desc {
+    color:#500000;
+}

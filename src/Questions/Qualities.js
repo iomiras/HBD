@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './Questions.css'
+import BlossomingFlower2 from '../Flowers/BlossomingFlower2';
 
 const Qualities = ({ answers, setAnswers, onNext }) => {
   const hints = ["Ответственность", "Смелость", "Доброта", "Честность", "Умение поддержать"];
@@ -20,8 +22,8 @@ const Qualities = ({ answers, setAnswers, onNext }) => {
   };
 
   return (
-    <div>
-      <h2>Назовите 5 качеств, которые вы любите в себе:</h2>
+    <div className='QuestionForm'>
+      <h2 className='question-text'>Назови 5 качеств, которые ты любишь в себе:</h2>
       {answers.map((answer, index) => (
         <div key={index}>
           <input
@@ -29,11 +31,13 @@ const Qualities = ({ answers, setAnswers, onNext }) => {
             value={answer}
             onChange={(e) => handleChange(index, e.target.value)}
             placeholder="Ваш ответ..."
+            className='AnswerInput'
           />
-          <button onClick={() => handleHintClick(index)}>Подсказка</button>
+          <button className='hints-button button' onClick={() => handleHintClick(index)}>?</button>
         </div>
       ))}
-      <button onClick={onNext}>Next</button>
+      <button className='next-button button' onClick={onNext}>Дальше</button>
+      <BlossomingFlower2/>
     </div>
   );
 };

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './Questions.css'
+import BlossomingFlower4 from '../Flowers/BlossomingFlower4';
 
 const Gratitude = ({ answers, setAnswers, onNext }) => {
   const hints = ["Учеба", "Опыт", "Друзья", "Возможности", "Личное развитие"];
@@ -20,8 +22,8 @@ const Gratitude = ({ answers, setAnswers, onNext }) => {
   };
 
   return (
-    <div>
-      <h2>Назовите 5 вещей, за которые вы благодарны:</h2>
+    <div className='QuestionForm'>
+      <h2 className='question-text'>Назови 5 вещей, за которые ты благодарна:</h2>
       {answers.map((answer, index) => (
         <div key={index}>
           <input
@@ -29,11 +31,13 @@ const Gratitude = ({ answers, setAnswers, onNext }) => {
             value={answer}
             onChange={(e) => handleChange(index, e.target.value)}
             placeholder="Ваш ответ..."
+            className='AnswerInput'
           />
-          <button onClick={() => handleHintClick(index)}>Подсказка</button>
+          <button className='hints-button button' onClick={() => handleHintClick(index)}>?</button>
         </div>
       ))}
-      <button onClick={onNext}>Next</button>
+      <button className='next-button button' onClick={onNext}>Дальше</button>
+      <BlossomingFlower4/>
     </div>
   );
 };

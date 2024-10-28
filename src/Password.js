@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Password.css';
-import BlossomingFlower2 from './BlossomingFlower2';
+import BlossomingFlower1 from './Flowers/BlossomingFlower1';
 
 export default function Password({ onCorrectPassword }) {
   const [passwordInput, setPasswordInput] = useState('');
@@ -41,7 +41,7 @@ export default function Password({ onCorrectPassword }) {
             </button>
             {showHint && <p className="hint-text">Принцесса</p>}
         </div>
-      <BlossomingFlower2/>
+      {/* <BlossomingFlower1/> */}
     </div>
   );
 }

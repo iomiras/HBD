@@ -15,6 +15,7 @@
   align-items: flex-end;
   justify-content: center;
   min-height: 40vh;
+  height: 60vh !important;
   margin: 0px;
   padding: 0px;
   border: none;
@@ -29,7 +30,7 @@
 
 .flowers {
   position: relative;
-  transform: scale(0.5);
+  transform: scale(0.8);
 }
 
 .flower {
