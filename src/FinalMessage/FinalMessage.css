@@ -1,0 +1,57 @@
+/* FinalMessage.css */
+.final-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #fdf5e6; /* Light paper color */
+    border: 1px solid #d3c9a1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Pacifico', cursive; /* Apply Pacifico font to title */
+    line-height: 1.6;
+  }
+  
+  .letter-content {
+    padding: 20px;
+  }
+  
+  .letter-title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    font-family: 'Pacifico', cursive; /* Apply Pacifico font to title */
+  }
+  
+  .letter-body {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #4a4a4a;
+  }
+  
+  .letter-body strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .letter-signature {
+    font-size: 18px;
+    text-align: right;
+    margin-top: 30px;
+    color: #4a4a4a;
+  }
+
+  .letter-ps {
+    font-style: italic;
+    margin-top: 20px;
+    opacity: 0.9;
+    color: #4a4a4a;
+    font-size: 10px;
+  }
+  
+  

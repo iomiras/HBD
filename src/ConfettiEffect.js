@@ -30,7 +30,7 @@ const ConfettiEffect = () => {
           width={width}
           height={height}
           recycle={false} // Do not recycle, create new confetti every time
-          numberOfPieces={900}
+          numberOfPieces={200}
           gravity={0.06}
         //   drawShape={(ctx) => {
         //     const emoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
