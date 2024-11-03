@@ -1,0 +1,23 @@
+/* Transitions.css */
+.fade-enter {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  .fade-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  
+  .transition-container {
+    width: 100%;
+  }

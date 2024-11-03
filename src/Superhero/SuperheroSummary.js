@@ -14,7 +14,7 @@ const SuperheroSummary = ({ onNext }) => {
 
       <iframe allow="autoplay *; encrypted-media *;" 
       frameborder="0" height="250" 
-      style={{ width: '90%', maxWidth: '600px', overflow: 'hidden', background: 'transparent' }} // Adjusted width
+      style={{ width: '90%', maxWidth: '600px', overflow: 'hidden', background: 'transparent', marginTop: '20px' }} // Adjusted width
       sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/kz/album/supergirl/712743007?i=712743105"></iframe>
 
 

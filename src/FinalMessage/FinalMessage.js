@@ -14,7 +14,7 @@ const FinalMessage = () => {
         </p>
         <p className="letter-body">
           Несмотря, что мы знакомы вот уже <strong>ровно</strong> 7 месяцев, я каждый раз с радостью жду разговора с тобой. 
-          Хоть и не получается это делать каждый день из-за расстояния, я рад, что ты есть у меня.
+          Хоть мы и на расстояний, я рад, что у меня есть ты.
         </p>
         <p className="letter-body">Жақсы көрем сені, <strong>Supergirl</strong>!</p>
         <p className="letter-signature">-М</p>
