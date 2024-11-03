@@ -1,12 +1,11 @@
-// Countdown.js
 import './Countdown.css';
 
 import React, { useState, useEffect } from 'react';
 
 const Countdown = ({ onCountdownComplete }) => {
   const calculateTimeLeft = () => {
-    const targetDate = new Date(Date.UTC(2024, 10, 7, 19, 0, 0)); // 8th November, 12 am UTC+5
-    // const targetDate = new Date(Date.UTC(2024, 10, 3, 16, 50, 0)); // November 3rd, 9:50 pm UTC+5
+    // const targetDate = new Date(Date.UTC(2024, 10, 7, 19, 0, 0)); // 8th November, 12 am UTC+5
+    const targetDate = new Date(Date.UTC(2024, 10, 7, 18, 59, 59)); // 7th November, 23:59:59 UTC+5
 
     const now = new Date();
     const difference = targetDate - now;
@@ -46,8 +45,11 @@ const Countdown = ({ onCountdownComplete }) => {
 
   return (
     <div className="countdown-container">
-      <p className='timer'>
+      <p className="timer">
         {timeLeft.days} : {timeLeft.hours} : {timeLeft.minutes} : {timeLeft.seconds}
+      </p>
+      <p className="intro-text">
+      Используй свой телефон, а не компьютер или ноутбук, и не торопись.
       </p>
     </div>
   );

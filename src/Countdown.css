@@ -1,3 +1,24 @@
-.timer {
-    font-size: 40px;
-}
+/* Countdown.css */
+
+.countdown-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto 20px;
+  }
+  
+  .timer {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
